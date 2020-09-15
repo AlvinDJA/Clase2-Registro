@@ -53,7 +53,7 @@ namespace Clase2_Registro
             {
                 Actores actor = encontrado;
                 NombresTextBox.Text = actor.Nombres;
-                SalarioTextBox.Text = Convert.ToString(actor.SalarioAnual);
+                SalarioIdTextBox.Text = Convert.ToString(actor.SalarioAnual);
             }
             
         }

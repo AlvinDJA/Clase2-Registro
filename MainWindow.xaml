@@ -13,7 +13,7 @@
             <TextBox x:Name="NombresTextBox" Text="{Binding Nombres}"/>
             <!--Salario-->
             <Label Content="SalarioId"/>
-            <TextBox x:Name="SalarioTextBox" Text="{Binding SalarioAnual}"/>
+            <TextBox x:Name="SalarioIdTextBox" Text="{Binding SalarioAnual}"/>
             <Button x:Name="GuardarButton" Content="Guardar" Click="GuardarButton_Click"></Button>
         </StackPanel>
     </Grid>
